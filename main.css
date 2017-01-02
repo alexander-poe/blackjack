@@ -1,0 +1,15 @@
+.welcome {
+	height : 100px;
+	width  : 100%;
+	border : 2px solid black;
+}
+
+.play-game {
+	height : 100px;
+	width  : 100%;
+	border : 2px solid black;
+}
+
+.hidden {
+	display: none;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BlackJack</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<div class="game-container">
+	<div class="welcome">Want to play some blackjack?</div>
+	<div class="play-game hidden">
+		<h5>player 1</h5>
+		<button 
+		class="draw" 
+		type="submit">Draw
+		</button>
+		<button 
+		class="hit hidden"  
+		type="submit">Hit Me!
+		</button>
+		<div class="scores">Your Score is <span class="score">0</span></div>
+	</div>
+	
+	<div class="play-game hidden">
+		<h5>player</h5>
+		<button 
+		class="draw2" 
+		type="submit">Draw
+		</button>
+		<button 
+		class="hit2 hidden"  
+		type="submit">Hit Me!
+		</button>
+		<div class="scores">Your Score is <span class="score2">0</span></div>
+	</div>
+</div>
+<button class="final" type="submit"></button>
+<div> Results: <span class="results"></span></div>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
